@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Shop</title>
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__top-nav">
-        <div class="header__top-nav-logo" style="background-color: black">
+        <div class="header__top-nav-logo">
           <img width="210" src="img/logo.svg" alt="Zen cottages logo" />
         </div>
         <div class="header__top-nav-menu">
@@ -52,9 +53,9 @@
       </div>
       <div class="product-tabs">
         <div class="tab-header">
-            <a href="">Featured</a>
-            <a href="">Sale</a>
-            <a href="">New</a>
+          <a href="">Featured</a>
+          <a href="">Sale</a>
+          <a href="">New</a>
         </div>
         <div class="tab-content">
           <article class="car-show__card">
@@ -76,30 +77,48 @@
             <button>Buy</button>
           </article>
         </div>
-      </div> <!-- End tab-content -->
+      </div>
+      <!-- End tab-content -->
       <div class="promos">
         <div class="promos__sale">
-            <h3>JBL Speakers</h3>
-            <div class="promos__sale-price">
-                <span>$300</span><span>$250</span>
-            </div>
-            <p>Special price on a variety of JBL loudspeakers.</p>
-            <a href="">Learn more</a>
+          <h3>JBL Speakers</h3>
+          <div class="promos__sale-price">
+            <span>$300</span><span>$250</span>
+          </div>
+          <p>Special price on a variety of JBL loudspeakers.</p>
+          <a href="">Learn more</a>
         </div>
       </div>
     </main>
     <footer>
-        <div class="contacts-info">
-            <p class="subheader">contacts</p>
-            <h2 class="contacts">😊Contact us anytime*</h2>
-        </div>
-        <form action="" method="POST">
-            <input name="username" type="text" placeholder="Enter your full name*" required>
-            <input name="phone-num" type="text" placeholder="Enter your phone number*" required>
-            <input name="email" type="email" placeholder="Enter your email*" required>
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
-            <button>Request a quote</button>
-        </form>
+      <div class="contacts-info">
+        <p class="subheader">contacts</p>
+        <h2 class="contacts">😊Contact us anytime*</h2>
+      </div>
+      <form action="" method="POST">
+        <input
+          name="username"
+          type="text"
+          placeholder="Enter your full name*"
+          required
+        />
+        <input
+          name="phone-num"
+          type="text"
+          placeholder="Enter your phone number*"
+          required
+        />
+        <input
+          name="email"
+          type="email"
+          placeholder="Enter your email*"
+          required
+        />
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <button>Request a quote</button>
+      </form>
+      <a href="#"><i class="fab fa-facebook"></i></a>
     </footer>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
   </body>
 </html>

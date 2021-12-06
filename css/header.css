@@ -1,0 +1,8 @@
+.header__top-nav-logo {
+    background-color: black;
+    width: 50%;
+}
+
+.header__top-nav-menu a {
+    color: var(--main-color);
+}
